@@ -1,0 +1,10 @@
+torch
+torchsummary
+torchvision
+numpy
+Pillow
+PyYAML
+requests
+tqdm
+opencv-python
+pycocotools

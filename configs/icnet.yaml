@@ -1,0 +1,27 @@
+### 1.Model
+model:
+  name: "icnet"
+  backbone: "resnet50"
+  base_size: 1024    # 在增强过程中，较短边将被调整到 [base_size*0.5, base_size*2.0] 之间
+  crop_size: 960     # 增强结束后，裁剪为训练尺寸
+
+### 2.Optimizer
+optimizer:
+  init_lr: 0.01
+  momentum: 0.9
+  weight_decay: 0.0001
+
+### 3.Training
+train:
+  specific_gpu_num: "0"     # 例如："0", "1" 或 "0, 1"
+  train_batch_size: 7       # 根据GPU资源调整
+  valid_batch_size: 1
+  coco_root: "D:/1/chenxiao/ICNet-pytorch-master/coco"  # 更改为您的 COCO 数据集路径
+  epochs: 200
+  log_iter: 10              # 每 log-iter 打印一次日志
+  val_epoch: 1              # 每 val-epoch 运行一次验证
+  ckpt_dir: "./ckpt/"       # ckpt 和训练日志将保存在此处
+
+### 4.Test
+test:
+  ckpt_path: "./ckpt/icnet_resnet50_1_0.496_best_model.pth" # 正确设置预训练模型路径

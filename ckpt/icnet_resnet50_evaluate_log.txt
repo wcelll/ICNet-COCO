@@ -1,0 +1,9 @@
+2023-12-09 01:14:29,835 semantic_segmentation INFO: Start validation, Total sample: 7
+2023-12-09 01:14:33,716 semantic_segmentation INFO: Sample: 1, validation pixAcc: 99.041, mIoU: 49.521, time: 1.925s
+2023-12-09 01:14:33,963 semantic_segmentation INFO: Sample: 2, validation pixAcc: 99.009, mIoU: 49.505, time: 0.007s
+2023-12-09 01:14:34,205 semantic_segmentation INFO: Sample: 3, validation pixAcc: 99.146, mIoU: 49.573, time: 0.007s
+2023-12-09 01:14:34,448 semantic_segmentation INFO: Sample: 4, validation pixAcc: 99.161, mIoU: 49.581, time: 0.007s
+2023-12-09 01:14:34,688 semantic_segmentation INFO: Sample: 5, validation pixAcc: 99.165, mIoU: 49.583, time: 0.008s
+2023-12-09 01:14:34,931 semantic_segmentation INFO: Sample: 6, validation pixAcc: 99.156, mIoU: 49.578, time: 0.007s
+2023-12-09 01:14:35,173 semantic_segmentation INFO: Sample: 7, validation pixAcc: 99.145, mIoU: 49.572, time: 0.007s
+2023-12-09 01:14:35,757 semantic_segmentation INFO: Evaluate: Average mIoU: 0.496, Average pixAcc: 0.991

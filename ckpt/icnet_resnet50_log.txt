@@ -1,0 +1,467 @@
+2023-12-08 23:00:50,221 semantic_segmentation INFO: Using 1 GPUs
+2023-12-08 23:00:50,222 semantic_segmentation INFO: torch.cuda.is_available(): True
+2023-12-08 23:00:50,222 semantic_segmentation INFO: torch.cuda.device_count(): 1
+2023-12-08 23:00:50,222 semantic_segmentation INFO: torch.cuda.current_device(): 0
+2023-12-08 23:00:50,222 semantic_segmentation INFO: {'model': {'name': 'icnet', 'backbone': 'resnet50', 'base_size': 1024, 'crop_size': 960}, 'optimizer': {'init_lr': 0.01, 'momentum': 0.9, 'weight_decay': 0.0001}, 'train': {'specific_gpu_num': '0', 'train_batch_size': 7, 'valid_batch_size': 1, 'coco_root': 'D:/1/chenxiao/ICNet-pytorch-master/coco', 'epochs': 200, 'log_iter': 10, 'val_epoch': 1, 'ckpt_dir': './ckpt/'}, 'test': {'ckpt_path': './ckpt/icnet_resnet50_176_0.932_best_model.pth'}}
+2023-12-08 23:00:51,582 semantic_segmentation INFO: Start training, Total Epochs: 200 = Total Iterations 600
+2023-12-08 23:01:25,334 semantic_segmentation INFO: Epochs: 1/200, Average loss: 1.083, Average mIoU: 0.399, Average pixAcc: 0.988
+2023-12-08 23:01:29,686 semantic_segmentation INFO: Validation: Average loss: 3.807, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:01:52,264 semantic_segmentation INFO: Epochs: 2/200, Average loss: 0.745, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:01:56,851 semantic_segmentation INFO: Validation: Average loss: 1.923, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:02:21,027 semantic_segmentation INFO: Epochs: 3/200, Average loss: 0.690, Average mIoU: 0.497, Average pixAcc: 0.995
+2023-12-08 23:02:25,846 semantic_segmentation INFO: Validation: Average loss: 1.742, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:02:38,482 semantic_segmentation INFO: Epochs: 4/200 || Iters: 10/600 || Lr: 0.009850 || Loss: 0.6640 || mIoU: 0.4961 || Cost Time: 0:01:46 || Estimated Time: 1:45:07
+2023-12-08 23:02:47,420 semantic_segmentation INFO: Epochs: 4/200, Average loss: 0.606, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:02:51,655 semantic_segmentation INFO: Validation: Average loss: 1.233, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:03:14,670 semantic_segmentation INFO: Epochs: 5/200, Average loss: 0.511, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-08 23:03:18,850 semantic_segmentation INFO: Validation: Average loss: 0.530, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:03:39,888 semantic_segmentation INFO: Epochs: 6/200, Average loss: 0.377, Average mIoU: 0.496, Average pixAcc: 0.993
+2023-12-08 23:03:44,457 semantic_segmentation INFO: Validation: Average loss: 0.378, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:04:02,843 semantic_segmentation INFO: Epochs: 7/200 || Iters: 20/600 || Lr: 0.009699 || Loss: 0.2609 || mIoU: 0.4944 || Cost Time: 0:03:11 || Estimated Time: 1:32:26
+2023-12-08 23:04:06,709 semantic_segmentation INFO: Epochs: 7/200, Average loss: 0.262, Average mIoU: 0.494, Average pixAcc: 0.987
+2023-12-08 23:04:11,194 semantic_segmentation INFO: Validation: Average loss: 0.212, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:04:34,752 semantic_segmentation INFO: Epochs: 8/200, Average loss: 0.149, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:04:39,365 semantic_segmentation INFO: Validation: Average loss: 0.134, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:05:01,748 semantic_segmentation INFO: Epochs: 9/200, Average loss: 0.090, Average mIoU: 0.491, Average pixAcc: 0.982
+2023-12-08 23:05:06,379 semantic_segmentation INFO: Validation: Average loss: 0.081, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:05:29,882 semantic_segmentation INFO: Epochs: 10/200 || Iters: 30/600 || Lr: 0.009549 || Loss: 0.0440 || mIoU: 0.4941 || Cost Time: 0:04:38 || Estimated Time: 1:28:07
+2023-12-08 23:05:30,349 semantic_segmentation INFO: Epochs: 10/200, Average loss: 0.056, Average mIoU: 0.492, Average pixAcc: 0.985
+2023-12-08 23:05:35,104 semantic_segmentation INFO: Validation: Average loss: 0.058, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:06:01,907 semantic_segmentation INFO: Epochs: 11/200, Average loss: 0.045, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:06:06,548 semantic_segmentation INFO: Validation: Average loss: 0.050, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:06:39,420 semantic_segmentation INFO: Epochs: 12/200, Average loss: 0.022, Average mIoU: 0.498, Average pixAcc: 0.996
+2023-12-08 23:06:43,993 semantic_segmentation INFO: Validation: Average loss: 0.047, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:07:07,787 semantic_segmentation INFO: Epochs: 13/200, Average loss: 0.034, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-08 23:07:12,494 semantic_segmentation INFO: Validation: Average loss: 0.043, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:07:25,577 semantic_segmentation INFO: Epochs: 14/200 || Iters: 40/600 || Lr: 0.009398 || Loss: 0.0489 || mIoU: 0.4924 || Cost Time: 0:06:33 || Estimated Time: 1:31:55
+2023-12-08 23:07:35,727 semantic_segmentation INFO: Epochs: 14/200, Average loss: 0.033, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-08 23:07:40,138 semantic_segmentation INFO: Validation: Average loss: 0.041, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:08:02,189 semantic_segmentation INFO: Epochs: 15/200, Average loss: 0.030, Average mIoU: 0.495, Average pixAcc: 0.991
+2023-12-08 23:08:06,761 semantic_segmentation INFO: Validation: Average loss: 0.042, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:08:28,814 semantic_segmentation INFO: Epochs: 16/200, Average loss: 0.048, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:08:33,356 semantic_segmentation INFO: Validation: Average loss: 0.041, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:08:52,360 semantic_segmentation INFO: Epochs: 17/200 || Iters: 50/600 || Lr: 0.009247 || Loss: 0.0640 || mIoU: 0.4913 || Cost Time: 0:08:00 || Estimated Time: 1:28:08
+2023-12-08 23:08:56,205 semantic_segmentation INFO: Epochs: 17/200, Average loss: 0.035, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-08 23:09:00,620 semantic_segmentation INFO: Validation: Average loss: 0.045, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:09:22,563 semantic_segmentation INFO: Epochs: 18/200, Average loss: 0.034, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-08 23:09:26,979 semantic_segmentation INFO: Validation: Average loss: 0.040, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:09:52,134 semantic_segmentation INFO: Epochs: 19/200, Average loss: 0.027, Average mIoU: 0.497, Average pixAcc: 0.993
+2023-12-08 23:09:56,609 semantic_segmentation INFO: Validation: Average loss: 0.040, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:10:18,266 semantic_segmentation INFO: Epochs: 20/200 || Iters: 60/600 || Lr: 0.009095 || Loss: 0.0267 || mIoU: 0.4952 || Cost Time: 0:09:26 || Estimated Time: 1:25:00
+2023-12-08 23:10:18,623 semantic_segmentation INFO: Epochs: 20/200, Average loss: 0.031, Average mIoU: 0.495, Average pixAcc: 0.991
+2023-12-08 23:10:23,022 semantic_segmentation INFO: Validation: Average loss: 0.038, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:10:45,189 semantic_segmentation INFO: Epochs: 21/200, Average loss: 0.036, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-08 23:10:49,691 semantic_segmentation INFO: Validation: Average loss: 0.038, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:11:18,021 semantic_segmentation INFO: Epochs: 22/200, Average loss: 0.026, Average mIoU: 0.495, Average pixAcc: 0.991
+2023-12-08 23:11:22,452 semantic_segmentation INFO: Validation: Average loss: 0.038, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:11:45,885 semantic_segmentation INFO: Epochs: 23/200, Average loss: 0.036, Average mIoU: 0.494, Average pixAcc: 0.987
+2023-12-08 23:11:50,339 semantic_segmentation INFO: Validation: Average loss: 0.038, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:12:03,196 semantic_segmentation INFO: Epochs: 24/200 || Iters: 70/600 || Lr: 0.008944 || Loss: 0.0301 || mIoU: 0.4944 || Cost Time: 0:11:11 || Estimated Time: 1:24:45
+2023-12-08 23:12:13,074 semantic_segmentation INFO: Epochs: 24/200, Average loss: 0.029, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:12:17,510 semantic_segmentation INFO: Validation: Average loss: 0.038, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:12:39,443 semantic_segmentation INFO: Epochs: 25/200, Average loss: 0.044, Average mIoU: 0.490, Average pixAcc: 0.980
+2023-12-08 23:12:43,887 semantic_segmentation INFO: Validation: Average loss: 0.036, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:13:05,841 semantic_segmentation INFO: Epochs: 26/200, Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:13:10,295 semantic_segmentation INFO: Validation: Average loss: 0.035, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:13:37,987 semantic_segmentation INFO: Epochs: 27/200 || Iters: 80/600 || Lr: 0.008792 || Loss: 0.0254 || mIoU: 0.4951 || Cost Time: 0:12:46 || Estimated Time: 1:23:01
+2023-12-08 23:13:42,521 semantic_segmentation INFO: Epochs: 27/200, Average loss: 0.033, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-08 23:13:46,950 semantic_segmentation INFO: Validation: Average loss: 0.035, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:14:12,769 semantic_segmentation INFO: Epochs: 28/200, Average loss: 0.035, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:14:17,187 semantic_segmentation INFO: Validation: Average loss: 0.035, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:14:41,513 semantic_segmentation INFO: Epochs: 29/200, Average loss: 0.030, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:14:45,948 semantic_segmentation INFO: Validation: Average loss: 0.037, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:15:09,917 semantic_segmentation INFO: Epochs: 30/200 || Iters: 90/600 || Lr: 0.008639 || Loss: 0.0255 || mIoU: 0.4956 || Cost Time: 0:14:18 || Estimated Time: 1:21:03
+2023-12-08 23:15:10,273 semantic_segmentation INFO: Epochs: 30/200, Average loss: 0.029, Average mIoU: 0.497, Average pixAcc: 0.993
+2023-12-08 23:15:14,736 semantic_segmentation INFO: Validation: Average loss: 0.037, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:15:38,392 semantic_segmentation INFO: Epochs: 31/200, Average loss: 0.034, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-08 23:15:42,862 semantic_segmentation INFO: Validation: Average loss: 0.037, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:16:09,710 semantic_segmentation INFO: Epochs: 32/200, Average loss: 0.026, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-08 23:16:14,120 semantic_segmentation INFO: Validation: Average loss: 0.035, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:16:36,890 semantic_segmentation INFO: Epochs: 33/200, Average loss: 0.027, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:16:41,338 semantic_segmentation INFO: Validation: Average loss: 0.034, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:16:54,115 semantic_segmentation INFO: Epochs: 34/200 || Iters: 100/600 || Lr: 0.008487 || Loss: 0.0209 || mIoU: 0.4963 || Cost Time: 0:16:02 || Estimated Time: 1:20:12
+2023-12-08 23:17:19,462 semantic_segmentation INFO: Epochs: 34/200, Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.993
+2023-12-08 23:17:23,904 semantic_segmentation INFO: Validation: Average loss: 0.033, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:17:55,282 semantic_segmentation INFO: Epochs: 35/200, Average loss: 0.028, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-08 23:17:59,754 semantic_segmentation INFO: Validation: Average loss: 0.032, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:18:21,970 semantic_segmentation INFO: Epochs: 36/200, Average loss: 0.022, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:18:26,403 semantic_segmentation INFO: Validation: Average loss: 0.032, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:18:46,591 semantic_segmentation INFO: Epochs: 37/200 || Iters: 110/600 || Lr: 0.008334 || Loss: 0.0195 || mIoU: 0.4962 || Cost Time: 0:17:55 || Estimated Time: 1:19:48
+2023-12-08 23:18:53,069 semantic_segmentation INFO: Epochs: 37/200, Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:18:57,517 semantic_segmentation INFO: Validation: Average loss: 0.032, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:19:20,518 semantic_segmentation INFO: Epochs: 38/200, Average loss: 0.026, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:19:24,991 semantic_segmentation INFO: Validation: Average loss: 0.032, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:19:47,135 semantic_segmentation INFO: Epochs: 39/200, Average loss: 0.026, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-08 23:19:51,621 semantic_segmentation INFO: Validation: Average loss: 0.031, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:20:14,819 semantic_segmentation INFO: Epochs: 40/200 || Iters: 120/600 || Lr: 0.008181 || Loss: 0.0273 || mIoU: 0.4948 || Cost Time: 0:19:23 || Estimated Time: 1:17:32
+2023-12-08 23:20:15,181 semantic_segmentation INFO: Epochs: 40/200, Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:20:19,627 semantic_segmentation INFO: Validation: Average loss: 0.031, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:20:42,514 semantic_segmentation INFO: Epochs: 41/200, Average loss: 0.028, Average mIoU: 0.496, Average pixAcc: 0.993
+2023-12-08 23:20:46,990 semantic_segmentation INFO: Validation: Average loss: 0.031, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:21:17,978 semantic_segmentation INFO: Epochs: 42/200, Average loss: 0.019, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:21:22,528 semantic_segmentation INFO: Validation: Average loss: 0.031, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:21:46,287 semantic_segmentation INFO: Epochs: 43/200, Average loss: 0.023, Average mIoU: 0.493, Average pixAcc: 0.987
+2023-12-08 23:21:50,736 semantic_segmentation INFO: Validation: Average loss: 0.031, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:22:03,632 semantic_segmentation INFO: Epochs: 44/200 || Iters: 130/600 || Lr: 0.008027 || Loss: 0.0137 || mIoU: 0.4983 || Cost Time: 0:21:12 || Estimated Time: 1:16:38
+2023-12-08 23:22:13,646 semantic_segmentation INFO: Epochs: 44/200, Average loss: 0.024, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-08 23:22:18,098 semantic_segmentation INFO: Validation: Average loss: 0.031, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:22:40,166 semantic_segmentation INFO: Epochs: 45/200, Average loss: 0.022, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:22:44,614 semantic_segmentation INFO: Validation: Average loss: 0.031, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:23:07,532 semantic_segmentation INFO: Epochs: 46/200, Average loss: 0.021, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:23:12,005 semantic_segmentation INFO: Validation: Average loss: 0.030, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:23:31,091 semantic_segmentation INFO: Epochs: 47/200 || Iters: 140/600 || Lr: 0.007873 || Loss: 0.0066 || mIoU: 0.4964 || Cost Time: 0:22:39 || Estimated Time: 1:14:26
+2023-12-08 23:23:35,616 semantic_segmentation INFO: Epochs: 47/200, Average loss: 0.018, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:23:40,093 semantic_segmentation INFO: Validation: Average loss: 0.030, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:24:07,026 semantic_segmentation INFO: Epochs: 48/200, Average loss: 0.029, Average mIoU: 0.494, Average pixAcc: 0.987
+2023-12-08 23:24:11,470 semantic_segmentation INFO: Validation: Average loss: 0.030, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:24:35,077 semantic_segmentation INFO: Epochs: 49/200, Average loss: 0.022, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-08 23:24:39,502 semantic_segmentation INFO: Validation: Average loss: 0.030, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:25:03,538 semantic_segmentation INFO: Epochs: 50/200 || Iters: 150/600 || Lr: 0.007719 || Loss: 0.0153 || mIoU: 0.4942 || Cost Time: 0:24:11 || Estimated Time: 1:12:35
+2023-12-08 23:25:03,897 semantic_segmentation INFO: Epochs: 50/200, Average loss: 0.028, Average mIoU: 0.492, Average pixAcc: 0.984
+2023-12-08 23:25:08,317 semantic_segmentation INFO: Validation: Average loss: 0.031, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:25:32,053 semantic_segmentation INFO: Epochs: 51/200, Average loss: 0.022, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:25:36,491 semantic_segmentation INFO: Validation: Average loss: 0.031, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:26:00,832 semantic_segmentation INFO: Epochs: 52/200, Average loss: 0.034, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:26:05,297 semantic_segmentation INFO: Validation: Average loss: 0.032, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:26:27,447 semantic_segmentation INFO: Epochs: 53/200, Average loss: 0.025, Average mIoU: 0.492, Average pixAcc: 0.985
+2023-12-08 23:26:31,948 semantic_segmentation INFO: Validation: Average loss: 0.033, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:26:44,840 semantic_segmentation INFO: Epochs: 54/200 || Iters: 160/600 || Lr: 0.007564 || Loss: 0.0270 || mIoU: 0.4933 || Cost Time: 0:25:53 || Estimated Time: 1:11:11
+2023-12-08 23:26:54,719 semantic_segmentation INFO: Epochs: 54/200, Average loss: 0.022, Average mIoU: 0.495, Average pixAcc: 0.989
+2023-12-08 23:26:59,132 semantic_segmentation INFO: Validation: Average loss: 0.033, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:27:21,225 semantic_segmentation INFO: Epochs: 55/200, Average loss: 0.024, Average mIoU: 0.493, Average pixAcc: 0.986
+2023-12-08 23:27:25,694 semantic_segmentation INFO: Validation: Average loss: 0.032, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:27:48,630 semantic_segmentation INFO: Epochs: 56/200, Average loss: 0.016, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:27:53,050 semantic_segmentation INFO: Validation: Average loss: 0.030, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:28:11,270 semantic_segmentation INFO: Epochs: 57/200 || Iters: 170/600 || Lr: 0.007409 || Loss: 0.0107 || mIoU: 0.4950 || Cost Time: 0:27:19 || Estimated Time: 1:09:07
+2023-12-08 23:28:15,131 semantic_segmentation INFO: Epochs: 57/200, Average loss: 0.028, Average mIoU: 0.493, Average pixAcc: 0.987
+2023-12-08 23:28:19,597 semantic_segmentation INFO: Validation: Average loss: 0.030, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:28:41,677 semantic_segmentation INFO: Epochs: 58/200, Average loss: 0.024, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-08 23:28:46,136 semantic_segmentation INFO: Validation: Average loss: 0.030, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:29:08,161 semantic_segmentation INFO: Epochs: 59/200, Average loss: 0.021, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:29:12,598 semantic_segmentation INFO: Validation: Average loss: 0.031, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:29:35,087 semantic_segmentation INFO: Epochs: 60/200 || Iters: 180/600 || Lr: 0.007254 || Loss: 0.0227 || mIoU: 0.4964 || Cost Time: 0:28:43 || Estimated Time: 1:07:01
+2023-12-08 23:29:35,445 semantic_segmentation INFO: Epochs: 60/200, Average loss: 0.019, Average mIoU: 0.497, Average pixAcc: 0.995
+2023-12-08 23:29:39,914 semantic_segmentation INFO: Validation: Average loss: 0.031, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:30:02,772 semantic_segmentation INFO: Epochs: 61/200, Average loss: 0.021, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:30:07,248 semantic_segmentation INFO: Validation: Average loss: 0.030, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:30:33,940 semantic_segmentation INFO: Epochs: 62/200, Average loss: 0.027, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-08 23:30:38,394 semantic_segmentation INFO: Validation: Average loss: 0.029, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:31:07,675 semantic_segmentation INFO: Epochs: 63/200, Average loss: 0.022, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-08 23:31:12,076 semantic_segmentation INFO: Validation: Average loss: 0.029, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:31:24,962 semantic_segmentation INFO: Epochs: 64/200 || Iters: 190/600 || Lr: 0.007099 || Loss: 0.0115 || mIoU: 0.4983 || Cost Time: 0:30:33 || Estimated Time: 1:05:56
+2023-12-08 23:31:34,163 semantic_segmentation INFO: Epochs: 64/200, Average loss: 0.016, Average mIoU: 0.498, Average pixAcc: 0.995
+2023-12-08 23:31:38,630 semantic_segmentation INFO: Validation: Average loss: 0.028, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:32:03,009 semantic_segmentation INFO: Epochs: 65/200, Average loss: 0.027, Average mIoU: 0.493, Average pixAcc: 0.985
+2023-12-08 23:32:07,476 semantic_segmentation INFO: Validation: Average loss: 0.029, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:32:31,936 semantic_segmentation INFO: Epochs: 66/200, Average loss: 0.017, Average mIoU: 0.496, Average pixAcc: 0.993
+2023-12-08 23:32:36,354 semantic_segmentation INFO: Validation: Average loss: 0.028, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:32:55,318 semantic_segmentation INFO: Epochs: 67/200 || Iters: 200/600 || Lr: 0.006943 || Loss: 0.0285 || mIoU: 0.4952 || Cost Time: 0:32:03 || Estimated Time: 1:04:07
+2023-12-08 23:32:59,856 semantic_segmentation INFO: Epochs: 67/200, Average loss: 0.017, Average mIoU: 0.496, Average pixAcc: 0.993
+2023-12-08 23:33:04,334 semantic_segmentation INFO: Validation: Average loss: 0.029, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:33:27,255 semantic_segmentation INFO: Epochs: 68/200, Average loss: 0.021, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:33:31,704 semantic_segmentation INFO: Validation: Average loss: 0.029, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:33:53,802 semantic_segmentation INFO: Epochs: 69/200, Average loss: 0.023, Average mIoU: 0.493, Average pixAcc: 0.986
+2023-12-08 23:33:58,238 semantic_segmentation INFO: Validation: Average loss: 0.029, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:34:21,406 semantic_segmentation INFO: Epochs: 70/200 || Iters: 210/600 || Lr: 0.006786 || Loss: 0.0206 || mIoU: 0.4958 || Cost Time: 0:33:29 || Estimated Time: 1:02:12
+2023-12-08 23:34:21,764 semantic_segmentation INFO: Epochs: 70/200, Average loss: 0.018, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:34:26,219 semantic_segmentation INFO: Validation: Average loss: 0.029, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:34:49,735 semantic_segmentation INFO: Epochs: 71/200, Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:34:54,156 semantic_segmentation INFO: Validation: Average loss: 0.029, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:35:17,013 semantic_segmentation INFO: Epochs: 72/200, Average loss: 0.017, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-08 23:35:21,462 semantic_segmentation INFO: Validation: Average loss: 0.029, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:35:43,511 semantic_segmentation INFO: Epochs: 73/200, Average loss: 0.028, Average mIoU: 0.490, Average pixAcc: 0.981
+2023-12-08 23:35:47,955 semantic_segmentation INFO: Validation: Average loss: 0.029, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:36:00,807 semantic_segmentation INFO: Epochs: 74/200 || Iters: 220/600 || Lr: 0.006629 || Loss: 0.0188 || mIoU: 0.4965 || Cost Time: 0:35:09 || Estimated Time: 1:00:43
+2023-12-08 23:36:10,008 semantic_segmentation INFO: Epochs: 74/200, Average loss: 0.020, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:36:14,445 semantic_segmentation INFO: Validation: Average loss: 0.029, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:36:37,209 semantic_segmentation INFO: Epochs: 75/200, Average loss: 0.022, Average mIoU: 0.493, Average pixAcc: 0.986
+2023-12-08 23:36:41,748 semantic_segmentation INFO: Validation: Average loss: 0.029, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:37:04,619 semantic_segmentation INFO: Epochs: 76/200, Average loss: 0.012, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-08 23:37:09,032 semantic_segmentation INFO: Validation: Average loss: 0.028, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:37:27,257 semantic_segmentation INFO: Epochs: 77/200 || Iters: 230/600 || Lr: 0.006472 || Loss: 0.0273 || mIoU: 0.4951 || Cost Time: 0:36:35 || Estimated Time: 0:58:52
+2023-12-08 23:37:31,868 semantic_segmentation INFO: Epochs: 77/200, Average loss: 0.022, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:37:36,293 semantic_segmentation INFO: Validation: Average loss: 0.028, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:37:59,305 semantic_segmentation INFO: Epochs: 78/200, Average loss: 0.018, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-08 23:38:03,754 semantic_segmentation INFO: Validation: Average loss: 0.028, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:38:26,675 semantic_segmentation INFO: Epochs: 79/200, Average loss: 0.023, Average mIoU: 0.495, Average pixAcc: 0.989
+2023-12-08 23:38:31,082 semantic_segmentation INFO: Validation: Average loss: 0.028, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:38:52,810 semantic_segmentation INFO: Epochs: 80/200 || Iters: 240/600 || Lr: 0.006314 || Loss: 0.0291 || mIoU: 0.4943 || Cost Time: 0:38:01 || Estimated Time: 0:57:01
+2023-12-08 23:38:53,170 semantic_segmentation INFO: Epochs: 80/200, Average loss: 0.024, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-08 23:38:57,617 semantic_segmentation INFO: Validation: Average loss: 0.028, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:39:19,739 semantic_segmentation INFO: Epochs: 81/200, Average loss: 0.024, Average mIoU: 0.494, Average pixAcc: 0.987
+2023-12-08 23:39:24,192 semantic_segmentation INFO: Validation: Average loss: 0.029, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:39:52,318 semantic_segmentation INFO: Epochs: 82/200, Average loss: 0.015, Average mIoU: 0.495, Average pixAcc: 0.991
+2023-12-08 23:39:56,802 semantic_segmentation INFO: Validation: Average loss: 0.028, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:40:19,720 semantic_segmentation INFO: Epochs: 83/200, Average loss: 0.027, Average mIoU: 0.492, Average pixAcc: 0.985
+2023-12-08 23:40:24,158 semantic_segmentation INFO: Validation: Average loss: 0.028, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:40:37,063 semantic_segmentation INFO: Epochs: 84/200 || Iters: 250/600 || Lr: 0.006156 || Loss: 0.0281 || mIoU: 0.4933 || Cost Time: 0:39:45 || Estimated Time: 0:55:39
+2023-12-08 23:40:46,375 semantic_segmentation INFO: Epochs: 84/200, Average loss: 0.021, Average mIoU: 0.494, Average pixAcc: 0.987
+2023-12-08 23:40:50,803 semantic_segmentation INFO: Validation: Average loss: 0.028, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:41:17,409 semantic_segmentation INFO: Epochs: 85/200, Average loss: 0.019, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:41:21,870 semantic_segmentation INFO: Validation: Average loss: 0.028, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:42:00,219 semantic_segmentation INFO: Epochs: 86/200, Average loss: 0.021, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-08 23:42:04,697 semantic_segmentation INFO: Validation: Average loss: 0.028, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:42:22,944 semantic_segmentation INFO: Epochs: 87/200 || Iters: 260/600 || Lr: 0.005998 || Loss: 0.0140 || mIoU: 0.4967 || Cost Time: 0:41:31 || Estimated Time: 0:54:17
+2023-12-08 23:42:26,799 semantic_segmentation INFO: Epochs: 87/200, Average loss: 0.021, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:42:31,295 semantic_segmentation INFO: Validation: Average loss: 0.027, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:42:53,412 semantic_segmentation INFO: Epochs: 88/200, Average loss: 0.019, Average mIoU: 0.496, Average pixAcc: 0.993
+2023-12-08 23:42:57,837 semantic_segmentation INFO: Validation: Average loss: 0.027, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:43:23,800 semantic_segmentation INFO: Epochs: 89/200, Average loss: 0.024, Average mIoU: 0.492, Average pixAcc: 0.984
+2023-12-08 23:43:28,251 semantic_segmentation INFO: Validation: Average loss: 0.027, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:43:50,767 semantic_segmentation INFO: Epochs: 90/200 || Iters: 270/600 || Lr: 0.005839 || Loss: 0.0226 || mIoU: 0.4960 || Cost Time: 0:42:59 || Estimated Time: 0:52:32
+2023-12-08 23:43:51,140 semantic_segmentation INFO: Epochs: 90/200, Average loss: 0.017, Average mIoU: 0.496, Average pixAcc: 0.993
+2023-12-08 23:43:55,664 semantic_segmentation INFO: Validation: Average loss: 0.027, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:44:18,517 semantic_segmentation INFO: Epochs: 91/200, Average loss: 0.018, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:44:22,965 semantic_segmentation INFO: Validation: Average loss: 0.027, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:44:54,577 semantic_segmentation INFO: Epochs: 92/200, Average loss: 0.016, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:44:58,997 semantic_segmentation INFO: Validation: Average loss: 0.027, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:45:21,062 semantic_segmentation INFO: Epochs: 93/200, Average loss: 0.020, Average mIoU: 0.496, Average pixAcc: 0.993
+2023-12-08 23:45:25,525 semantic_segmentation INFO: Validation: Average loss: 0.027, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:45:38,401 semantic_segmentation INFO: Epochs: 94/200 || Iters: 280/600 || Lr: 0.005679 || Loss: 0.0145 || mIoU: 0.4973 || Cost Time: 0:44:46 || Estimated Time: 0:51:10
+2023-12-08 23:45:50,874 semantic_segmentation INFO: Epochs: 94/200, Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.993
+2023-12-08 23:45:55,326 semantic_segmentation INFO: Validation: Average loss: 0.027, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:46:17,329 semantic_segmentation INFO: Epochs: 95/200, Average loss: 0.021, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:46:21,779 semantic_segmentation INFO: Validation: Average loss: 0.027, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:46:52,021 semantic_segmentation INFO: Epochs: 96/200, Average loss: 0.018, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:46:56,451 semantic_segmentation INFO: Validation: Average loss: 0.027, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:47:31,825 semantic_segmentation INFO: Epochs: 97/200 || Iters: 290/600 || Lr: 0.005519 || Loss: 0.0141 || mIoU: 0.4964 || Cost Time: 0:46:40 || Estimated Time: 0:49:53
+2023-12-08 23:47:35,669 semantic_segmentation INFO: Epochs: 97/200, Average loss: 0.025, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:47:40,133 semantic_segmentation INFO: Validation: Average loss: 0.027, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:48:02,165 semantic_segmentation INFO: Epochs: 98/200, Average loss: 0.015, Average mIoU: 0.496, Average pixAcc: 0.993
+2023-12-08 23:48:06,595 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:48:33,945 semantic_segmentation INFO: Epochs: 99/200, Average loss: 0.023, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:48:38,382 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:49:00,746 semantic_segmentation INFO: Epochs: 100/200 || Iters: 300/600 || Lr: 0.005359 || Loss: 0.0191 || mIoU: 0.4967 || Cost Time: 0:48:09 || Estimated Time: 0:48:09
+2023-12-08 23:49:01,107 semantic_segmentation INFO: Epochs: 100/200, Average loss: 0.016, Average mIoU: 0.497, Average pixAcc: 0.993
+2023-12-08 23:49:05,556 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:49:29,065 semantic_segmentation INFO: Epochs: 101/200, Average loss: 0.018, Average mIoU: 0.493, Average pixAcc: 0.986
+2023-12-08 23:49:33,482 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:49:55,480 semantic_segmentation INFO: Epochs: 102/200, Average loss: 0.020, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:49:59,917 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:50:21,941 semantic_segmentation INFO: Epochs: 103/200, Average loss: 0.016, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:50:26,387 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:50:39,208 semantic_segmentation INFO: Epochs: 104/200 || Iters: 310/600 || Lr: 0.005198 || Loss: 0.0455 || mIoU: 0.4883 || Cost Time: 0:49:47 || Estimated Time: 0:46:34
+2023-12-08 23:50:49,208 semantic_segmentation INFO: Epochs: 104/200, Average loss: 0.026, Average mIoU: 0.492, Average pixAcc: 0.983
+2023-12-08 23:50:53,644 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:51:19,829 semantic_segmentation INFO: Epochs: 105/200, Average loss: 0.019, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:51:24,245 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:51:49,969 semantic_segmentation INFO: Epochs: 106/200, Average loss: 0.019, Average mIoU: 0.493, Average pixAcc: 0.985
+2023-12-08 23:51:54,397 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:52:14,179 semantic_segmentation INFO: Epochs: 107/200 || Iters: 320/600 || Lr: 0.005036 || Loss: 0.0315 || mIoU: 0.4920 || Cost Time: 0:51:22 || Estimated Time: 0:44:57
+2023-12-08 23:52:25,449 semantic_segmentation INFO: Epochs: 107/200, Average loss: 0.021, Average mIoU: 0.493, Average pixAcc: 0.987
+2023-12-08 23:52:29,884 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:52:54,944 semantic_segmentation INFO: Epochs: 108/200, Average loss: 0.019, Average mIoU: 0.496, Average pixAcc: 0.993
+2023-12-08 23:52:59,348 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:53:21,319 semantic_segmentation INFO: Epochs: 109/200, Average loss: 0.029, Average mIoU: 0.490, Average pixAcc: 0.980
+2023-12-08 23:53:25,780 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:53:48,255 semantic_segmentation INFO: Epochs: 110/200 || Iters: 330/600 || Lr: 0.004874 || Loss: 0.0198 || mIoU: 0.4956 || Cost Time: 0:52:56 || Estimated Time: 0:43:19
+2023-12-08 23:53:48,608 semantic_segmentation INFO: Epochs: 110/200, Average loss: 0.019, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:53:53,069 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:54:20,561 semantic_segmentation INFO: Epochs: 111/200, Average loss: 0.018, Average mIoU: 0.497, Average pixAcc: 0.993
+2023-12-08 23:54:25,087 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:54:47,976 semantic_segmentation INFO: Epochs: 112/200, Average loss: 0.017, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-08 23:54:52,571 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:55:17,880 semantic_segmentation INFO: Epochs: 113/200, Average loss: 0.018, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:55:22,330 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:55:36,046 semantic_segmentation INFO: Epochs: 114/200 || Iters: 340/600 || Lr: 0.004711 || Loss: 0.0127 || mIoU: 0.4974 || Cost Time: 0:54:44 || Estimated Time: 0:41:51
+2023-12-08 23:55:56,092 semantic_segmentation INFO: Epochs: 114/200, Average loss: 0.013, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-08 23:56:00,507 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:56:30,456 semantic_segmentation INFO: Epochs: 115/200, Average loss: 0.017, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-08 23:56:34,920 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:56:59,198 semantic_segmentation INFO: Epochs: 116/200, Average loss: 0.012, Average mIoU: 0.498, Average pixAcc: 0.996
+2023-12-08 23:57:03,640 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:57:22,610 semantic_segmentation INFO: Epochs: 117/200 || Iters: 350/600 || Lr: 0.004548 || Loss: 0.0134 || mIoU: 0.4963 || Cost Time: 0:56:31 || Estimated Time: 0:40:22
+2023-12-08 23:57:26,463 semantic_segmentation INFO: Epochs: 117/200, Average loss: 0.020, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:57:30,907 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:58:00,393 semantic_segmentation INFO: Epochs: 118/200, Average loss: 0.017, Average mIoU: 0.493, Average pixAcc: 0.986
+2023-12-08 23:58:04,939 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:58:26,993 semantic_segmentation INFO: Epochs: 119/200, Average loss: 0.016, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-08 23:58:31,444 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:58:56,479 semantic_segmentation INFO: Epochs: 120/200 || Iters: 360/600 || Lr: 0.004384 || Loss: 0.0147 || mIoU: 0.4942 || Cost Time: 0:58:04 || Estimated Time: 0:38:43
+2023-12-08 23:58:56,836 semantic_segmentation INFO: Epochs: 120/200, Average loss: 0.021, Average mIoU: 0.492, Average pixAcc: 0.985
+2023-12-08 23:59:01,297 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:59:23,534 semantic_segmentation INFO: Epochs: 121/200, Average loss: 0.026, Average mIoU: 0.493, Average pixAcc: 0.986
+2023-12-08 23:59:27,991 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-08 23:59:54,717 semantic_segmentation INFO: Epochs: 122/200, Average loss: 0.017, Average mIoU: 0.496, Average pixAcc: 0.993
+2023-12-08 23:59:59,250 semantic_segmentation INFO: Validation: Average loss: 0.026, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:00:21,276 semantic_segmentation INFO: Epochs: 123/200, Average loss: 0.018, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-09 00:00:25,719 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:00:38,479 semantic_segmentation INFO: Epochs: 124/200 || Iters: 370/600 || Lr: 0.004219 || Loss: 0.0228 || mIoU: 0.4933 || Cost Time: 0:59:46 || Estimated Time: 0:37:09
+2023-12-09 00:00:47,685 semantic_segmentation INFO: Epochs: 124/200, Average loss: 0.017, Average mIoU: 0.495, Average pixAcc: 0.989
+2023-12-09 00:00:52,151 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:01:18,263 semantic_segmentation INFO: Epochs: 125/200, Average loss: 0.021, Average mIoU: 0.495, Average pixAcc: 0.989
+2023-12-09 00:01:22,727 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:01:44,762 semantic_segmentation INFO: Epochs: 126/200, Average loss: 0.017, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-09 00:01:49,232 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:02:07,417 semantic_segmentation INFO: Epochs: 127/200 || Iters: 380/600 || Lr: 0.004054 || Loss: 0.0236 || mIoU: 0.4914 || Cost Time: 1:01:15 || Estimated Time: 0:35:28
+2023-12-09 00:02:11,276 semantic_segmentation INFO: Epochs: 127/200, Average loss: 0.026, Average mIoU: 0.491, Average pixAcc: 0.982
+2023-12-09 00:02:15,746 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:02:42,277 semantic_segmentation INFO: Epochs: 128/200, Average loss: 0.029, Average mIoU: 0.491, Average pixAcc: 0.981
+2023-12-09 00:02:46,727 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:03:22,807 semantic_segmentation INFO: Epochs: 129/200, Average loss: 0.019, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-09 00:03:27,252 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:03:51,233 semantic_segmentation INFO: Epochs: 130/200 || Iters: 390/600 || Lr: 0.003887 || Loss: 0.0130 || mIoU: 0.4949 || Cost Time: 1:02:59 || Estimated Time: 0:33:55
+2023-12-09 00:03:51,585 semantic_segmentation INFO: Epochs: 130/200, Average loss: 0.018, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-09 00:03:56,030 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:04:33,523 semantic_segmentation INFO: Epochs: 131/200, Average loss: 0.020, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-09 00:04:38,004 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:05:00,114 semantic_segmentation INFO: Epochs: 132/200, Average loss: 0.022, Average mIoU: 0.493, Average pixAcc: 0.986
+2023-12-09 00:05:04,604 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:05:30,532 semantic_segmentation INFO: Epochs: 133/200, Average loss: 0.021, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-09 00:05:35,001 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:05:51,695 semantic_segmentation INFO: Epochs: 134/200 || Iters: 400/600 || Lr: 0.003720 || Loss: 0.0122 || mIoU: 0.4973 || Cost Time: 1:05:00 || Estimated Time: 0:32:30
+2023-12-09 00:06:00,900 semantic_segmentation INFO: Epochs: 134/200, Average loss: 0.018, Average mIoU: 0.497, Average pixAcc: 0.993
+2023-12-09 00:06:05,352 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:06:32,661 semantic_segmentation INFO: Epochs: 135/200, Average loss: 0.019, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-09 00:06:37,110 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:07:00,642 semantic_segmentation INFO: Epochs: 136/200, Average loss: 0.016, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-09 00:07:05,071 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:07:23,250 semantic_segmentation INFO: Epochs: 137/200 || Iters: 410/600 || Lr: 0.003553 || Loss: 0.0294 || mIoU: 0.4933 || Cost Time: 1:06:31 || Estimated Time: 0:30:49
+2023-12-09 00:07:27,112 semantic_segmentation INFO: Epochs: 137/200, Average loss: 0.021, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-09 00:07:31,579 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:07:54,370 semantic_segmentation INFO: Epochs: 138/200, Average loss: 0.018, Average mIoU: 0.495, Average pixAcc: 0.991
+2023-12-09 00:07:58,947 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:08:20,939 semantic_segmentation INFO: Epochs: 139/200, Average loss: 0.012, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-09 00:08:25,359 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:08:47,008 semantic_segmentation INFO: Epochs: 140/200 || Iters: 420/600 || Lr: 0.003384 || Loss: 0.0192 || mIoU: 0.4958 || Cost Time: 1:07:55 || Estimated Time: 0:29:06
+2023-12-09 00:08:47,360 semantic_segmentation INFO: Epochs: 140/200, Average loss: 0.017, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-09 00:08:51,809 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:09:17,715 semantic_segmentation INFO: Epochs: 141/200, Average loss: 0.021, Average mIoU: 0.495, Average pixAcc: 0.989
+2023-12-09 00:09:22,176 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:09:48,741 semantic_segmentation INFO: Epochs: 142/200, Average loss: 0.018, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:09:53,205 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:10:16,102 semantic_segmentation INFO: Epochs: 143/200, Average loss: 0.017, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-09 00:10:20,681 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:10:33,518 semantic_segmentation INFO: Epochs: 144/200 || Iters: 430/600 || Lr: 0.003214 || Loss: 0.0091 || mIoU: 0.4986 || Cost Time: 1:09:41 || Estimated Time: 0:27:33
+2023-12-09 00:10:42,707 semantic_segmentation INFO: Epochs: 144/200, Average loss: 0.017, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-09 00:10:47,118 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:11:09,162 semantic_segmentation INFO: Epochs: 145/200, Average loss: 0.015, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-09 00:11:13,644 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:11:36,434 semantic_segmentation INFO: Epochs: 146/200, Average loss: 0.019, Average mIoU: 0.495, Average pixAcc: 0.991
+2023-12-09 00:11:40,890 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:11:59,079 semantic_segmentation INFO: Epochs: 147/200 || Iters: 440/600 || Lr: 0.003043 || Loss: 0.0139 || mIoU: 0.4939 || Cost Time: 1:11:07 || Estimated Time: 0:25:51
+2023-12-09 00:12:10,340 semantic_segmentation INFO: Epochs: 147/200, Average loss: 0.021, Average mIoU: 0.493, Average pixAcc: 0.986
+2023-12-09 00:12:14,795 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:12:36,872 semantic_segmentation INFO: Epochs: 148/200, Average loss: 0.014, Average mIoU: 0.497, Average pixAcc: 0.993
+2023-12-09 00:12:41,312 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:13:06,799 semantic_segmentation INFO: Epochs: 149/200, Average loss: 0.020, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-09 00:13:11,235 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:13:32,882 semantic_segmentation INFO: Epochs: 150/200 || Iters: 450/600 || Lr: 0.002872 || Loss: 0.0128 || mIoU: 0.4963 || Cost Time: 1:12:41 || Estimated Time: 0:24:13
+2023-12-09 00:13:33,235 semantic_segmentation INFO: Epochs: 150/200, Average loss: 0.015, Average mIoU: 0.497, Average pixAcc: 0.993
+2023-12-09 00:13:37,683 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:13:59,681 semantic_segmentation INFO: Epochs: 151/200, Average loss: 0.014, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-09 00:14:04,133 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:14:37,454 semantic_segmentation INFO: Epochs: 152/200, Average loss: 0.016, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-09 00:14:41,878 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:15:03,873 semantic_segmentation INFO: Epochs: 153/200, Average loss: 0.024, Average mIoU: 0.490, Average pixAcc: 0.980
+2023-12-09 00:15:08,343 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:15:21,246 semantic_segmentation INFO: Epochs: 154/200 || Iters: 460/600 || Lr: 0.002699 || Loss: 0.0240 || mIoU: 0.4936 || Cost Time: 1:14:29 || Estimated Time: 0:22:40
+2023-12-09 00:15:30,444 semantic_segmentation INFO: Epochs: 154/200, Average loss: 0.021, Average mIoU: 0.494, Average pixAcc: 0.987
+2023-12-09 00:15:34,900 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:15:57,031 semantic_segmentation INFO: Epochs: 155/200, Average loss: 0.018, Average mIoU: 0.496, Average pixAcc: 0.993
+2023-12-09 00:16:01,479 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:16:23,521 semantic_segmentation INFO: Epochs: 156/200, Average loss: 0.013, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-09 00:16:27,986 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:16:49,301 semantic_segmentation INFO: Epochs: 157/200 || Iters: 470/600 || Lr: 0.002525 || Loss: 0.0257 || mIoU: 0.4917 || Cost Time: 1:15:57 || Estimated Time: 0:21:00
+2023-12-09 00:16:53,148 semantic_segmentation INFO: Epochs: 157/200, Average loss: 0.022, Average mIoU: 0.492, Average pixAcc: 0.984
+2023-12-09 00:16:57,585 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:17:19,683 semantic_segmentation INFO: Epochs: 158/200, Average loss: 0.018, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-09 00:17:24,279 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:17:47,980 semantic_segmentation INFO: Epochs: 159/200, Average loss: 0.014, Average mIoU: 0.497, Average pixAcc: 0.995
+2023-12-09 00:17:52,438 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:18:14,299 semantic_segmentation INFO: Epochs: 160/200 || Iters: 480/600 || Lr: 0.002349 || Loss: 0.0135 || mIoU: 0.4955 || Cost Time: 1:17:22 || Estimated Time: 0:19:20
+2023-12-09 00:18:14,652 semantic_segmentation INFO: Epochs: 160/200, Average loss: 0.016, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-09 00:18:19,197 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:18:42,040 semantic_segmentation INFO: Epochs: 161/200, Average loss: 0.015, Average mIoU: 0.497, Average pixAcc: 0.993
+2023-12-09 00:18:46,483 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:19:08,495 semantic_segmentation INFO: Epochs: 162/200, Average loss: 0.021, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-09 00:19:12,999 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:19:43,218 semantic_segmentation INFO: Epochs: 163/200, Average loss: 0.018, Average mIoU: 0.493, Average pixAcc: 0.986
+2023-12-09 00:19:47,667 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:20:00,492 semantic_segmentation INFO: Epochs: 164/200 || Iters: 490/600 || Lr: 0.002172 || Loss: 0.0162 || mIoU: 0.4952 || Cost Time: 1:19:08 || Estimated Time: 0:17:46
+2023-12-09 00:20:09,679 semantic_segmentation INFO: Epochs: 164/200, Average loss: 0.015, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-09 00:20:14,134 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:20:36,175 semantic_segmentation INFO: Epochs: 165/200, Average loss: 0.020, Average mIoU: 0.492, Average pixAcc: 0.985
+2023-12-09 00:20:40,669 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:21:10,159 semantic_segmentation INFO: Epochs: 166/200, Average loss: 0.017, Average mIoU: 0.491, Average pixAcc: 0.983
+2023-12-09 00:21:14,609 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:21:41,554 semantic_segmentation INFO: Epochs: 167/200 || Iters: 500/600 || Lr: 0.001994 || Loss: 0.0118 || mIoU: 0.4953 || Cost Time: 1:20:49 || Estimated Time: 0:16:09
+2023-12-09 00:21:53,492 semantic_segmentation INFO: Epochs: 167/200, Average loss: 0.013, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-09 00:21:57,908 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:22:19,913 semantic_segmentation INFO: Epochs: 168/200, Average loss: 0.018, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-09 00:22:24,351 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:22:53,782 semantic_segmentation INFO: Epochs: 169/200, Average loss: 0.020, Average mIoU: 0.495, Average pixAcc: 0.991
+2023-12-09 00:22:58,251 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:23:22,945 semantic_segmentation INFO: Epochs: 170/200 || Iters: 510/600 || Lr: 0.001813 || Loss: 0.0104 || mIoU: 0.4958 || Cost Time: 1:22:31 || Estimated Time: 0:14:33
+2023-12-09 00:23:23,298 semantic_segmentation INFO: Epochs: 170/200, Average loss: 0.016, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-09 00:23:27,716 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:23:52,322 semantic_segmentation INFO: Epochs: 171/200, Average loss: 0.021, Average mIoU: 0.495, Average pixAcc: 0.989
+2023-12-09 00:23:56,762 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:24:29,046 semantic_segmentation INFO: Epochs: 172/200, Average loss: 0.015, Average mIoU: 0.495, Average pixAcc: 0.991
+2023-12-09 00:24:33,486 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:24:57,218 semantic_segmentation INFO: Epochs: 173/200, Average loss: 0.020, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-09 00:25:01,670 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:25:14,490 semantic_segmentation INFO: Epochs: 174/200 || Iters: 520/600 || Lr: 0.001631 || Loss: 0.0111 || mIoU: 0.4981 || Cost Time: 1:24:22 || Estimated Time: 0:12:58
+2023-12-09 00:25:24,392 semantic_segmentation INFO: Epochs: 174/200, Average loss: 0.018, Average mIoU: 0.497, Average pixAcc: 0.993
+2023-12-09 00:25:28,842 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:25:51,711 semantic_segmentation INFO: Epochs: 175/200, Average loss: 0.018, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-09 00:25:56,131 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:26:19,019 semantic_segmentation INFO: Epochs: 176/200, Average loss: 0.023, Average mIoU: 0.494, Average pixAcc: 0.987
+2023-12-09 00:26:23,452 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:26:50,314 semantic_segmentation INFO: Epochs: 177/200 || Iters: 530/600 || Lr: 0.001446 || Loss: 0.0277 || mIoU: 0.4943 || Cost Time: 1:25:58 || Estimated Time: 0:11:21
+2023-12-09 00:26:54,169 semantic_segmentation INFO: Epochs: 177/200, Average loss: 0.018, Average mIoU: 0.496, Average pixAcc: 0.992
+2023-12-09 00:26:58,622 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:27:20,697 semantic_segmentation INFO: Epochs: 178/200, Average loss: 0.025, Average mIoU: 0.489, Average pixAcc: 0.978
+2023-12-09 00:27:25,151 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:27:55,461 semantic_segmentation INFO: Epochs: 179/200, Average loss: 0.021, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-09 00:27:59,907 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:28:37,560 semantic_segmentation INFO: Epochs: 180/200 || Iters: 540/600 || Lr: 0.001259 || Loss: 0.0088 || mIoU: 0.4955 || Cost Time: 1:27:45 || Estimated Time: 0:09:45
+2023-12-09 00:28:37,926 semantic_segmentation INFO: Epochs: 180/200, Average loss: 0.016, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-09 00:28:42,385 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:29:04,360 semantic_segmentation INFO: Epochs: 181/200, Average loss: 0.021, Average mIoU: 0.493, Average pixAcc: 0.987
+2023-12-09 00:29:08,791 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:29:30,869 semantic_segmentation INFO: Epochs: 182/200, Average loss: 0.023, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-09 00:29:35,327 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:29:57,271 semantic_segmentation INFO: Epochs: 183/200, Average loss: 0.014, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-09 00:30:01,757 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:30:18,409 semantic_segmentation INFO: Epochs: 184/200 || Iters: 550/600 || Lr: 0.001068 || Loss: 0.0145 || mIoU: 0.4958 || Cost Time: 1:29:26 || Estimated Time: 0:08:07
+2023-12-09 00:30:34,739 semantic_segmentation INFO: Epochs: 184/200, Average loss: 0.017, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:30:39,215 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:31:14,066 semantic_segmentation INFO: Epochs: 185/200, Average loss: 0.017, Average mIoU: 0.497, Average pixAcc: 0.993
+2023-12-09 00:31:18,532 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:31:41,376 semantic_segmentation INFO: Epochs: 186/200, Average loss: 0.016, Average mIoU: 0.494, Average pixAcc: 0.988
+2023-12-09 00:31:45,879 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:32:04,023 semantic_segmentation INFO: Epochs: 187/200 || Iters: 560/600 || Lr: 0.000874 || Loss: 0.0227 || mIoU: 0.4945 || Cost Time: 1:31:12 || Estimated Time: 0:06:30
+2023-12-09 00:32:07,861 semantic_segmentation INFO: Epochs: 187/200, Average loss: 0.018, Average mIoU: 0.495, Average pixAcc: 0.990
+2023-12-09 00:32:12,304 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:32:44,626 semantic_segmentation INFO: Epochs: 188/200, Average loss: 0.020, Average mIoU: 0.493, Average pixAcc: 0.987
+2023-12-09 00:32:49,096 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:33:12,039 semantic_segmentation INFO: Epochs: 189/200, Average loss: 0.013, Average mIoU: 0.497, Average pixAcc: 0.995
+2023-12-09 00:33:16,507 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:33:38,176 semantic_segmentation INFO: Epochs: 190/200 || Iters: 570/600 || Lr: 0.000675 || Loss: 0.0120 || mIoU: 0.4963 || Cost Time: 1:32:46 || Estimated Time: 0:04:52
+2023-12-09 00:33:38,538 semantic_segmentation INFO: Epochs: 190/200, Average loss: 0.015, Average mIoU: 0.497, Average pixAcc: 0.993
+2023-12-09 00:33:42,965 semantic_segmentation INFO: Validation: Average loss: 0.025, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:34:08,403 semantic_segmentation INFO: Epochs: 191/200, Average loss: 0.022, Average mIoU: 0.493, Average pixAcc: 0.985
+2023-12-09 00:34:12,823 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:34:35,642 semantic_segmentation INFO: Epochs: 192/200, Average loss: 0.021, Average mIoU: 0.493, Average pixAcc: 0.985
+2023-12-09 00:34:40,113 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:35:03,645 semantic_segmentation INFO: Epochs: 193/200, Average loss: 0.014, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-09 00:35:08,106 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:35:20,979 semantic_segmentation INFO: Epochs: 194/200 || Iters: 580/600 || Lr: 0.000468 || Loss: 0.0200 || mIoU: 0.4959 || Cost Time: 1:34:29 || Estimated Time: 0:03:15
+2023-12-09 00:35:30,958 semantic_segmentation INFO: Epochs: 194/200, Average loss: 0.018, Average mIoU: 0.495, Average pixAcc: 0.991
+2023-12-09 00:35:35,501 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:35:57,493 semantic_segmentation INFO: Epochs: 195/200, Average loss: 0.013, Average mIoU: 0.497, Average pixAcc: 0.994
+2023-12-09 00:36:01,956 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:36:24,019 semantic_segmentation INFO: Epochs: 196/200, Average loss: 0.021, Average mIoU: 0.495, Average pixAcc: 0.989
+2023-12-09 00:36:28,495 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:36:46,656 semantic_segmentation INFO: Epochs: 197/200 || Iters: 590/600 || Lr: 0.000251 || Loss: 0.0115 || mIoU: 0.4949 || Cost Time: 1:35:55 || Estimated Time: 0:01:37
+2023-12-09 00:36:58,537 semantic_segmentation INFO: Epochs: 197/200, Average loss: 0.015, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-09 00:37:02,972 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:37:25,896 semantic_segmentation INFO: Epochs: 198/200, Average loss: 0.016, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-09 00:37:30,328 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:37:53,199 semantic_segmentation INFO: Epochs: 199/200, Average loss: 0.020, Average mIoU: 0.494, Average pixAcc: 0.989
+2023-12-09 00:37:57,639 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:38:23,185 semantic_segmentation INFO: Epochs: 200/200 || Iters: 600/600 || Lr: 0.000000 || Loss: 0.0136 || mIoU: 0.4965 || Cost Time: 1:37:31 || Estimated Time: 0:00:00
+2023-12-09 00:38:23,541 semantic_segmentation INFO: Epochs: 200/200, Average loss: 0.014, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:38:28,002 semantic_segmentation INFO: Validation: Average loss: 0.024, Average mIoU: 0.496, Average pixAcc: 0.991
+2023-12-09 00:38:28,003 semantic_segmentation INFO: Total training time: 1:37:36.421259 (9.7607s / it)
